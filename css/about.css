@@ -10,18 +10,6 @@
   font-weight: bold;
 }
 
-.jumbotron #biography * {
-	display: inline;
-}
-
-.jumbotron #biography img {
-	height: 75px;
-	width: 75px;
-	box-shadow: 0 5 5px rgba(0, 0, 0, 0.8);
-	border: 1px solid #000000;
-	border-radius: 50%;
-}
-
 a {
   color: #00b0ff;
 }
@@ -31,23 +19,13 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
-.education {
-  background-image: url('../graphics/giftly.png');
-  background-position: initial initial;
-  background-repeat: initial initial;
-  height: 300px;
+.education h2, .experience h2, .additional h2 {
+  border-bottom: 3px dotted #BEBEBE;
+  padding-bottom: 5px;
+  font-weight: bold;
 }
 
-.experience {
-  background-image: url('../graphics/photography.png');
-  background-position: initial initial;
-  background-repeat: initial initial;
-  height: 530px;
-}
-
-.additional {
-  background-image: url('../graphics/skulls.png');
-  background-position: initial initial;
-  background-repeat: initial initial;
-  height: 300px;
+.container .text-muted {
+  margin: 20px 0;
+  width: auto;
 }
